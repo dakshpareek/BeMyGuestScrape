@@ -16,8 +16,8 @@ def login():
 	link="https://agents.bemyguest.com.sg/en"
 	driver.get(link)
 	time.sleep(2)
-	email="kim@tripzeeker.com"
-	password="TripZ88ker#1"
+	email=""
+	password=""
 	driver.find_element_by_name('email').send_keys(email)
 	driver.find_element_by_name('password').send_keys(password)
 	time.sleep(1)
